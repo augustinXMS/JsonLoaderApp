@@ -1,0 +1,21 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card  title="Upload JSON">
+    <lightning-file-upload
+        label="Attach receipt"
+        name="fileUploader"
+        accept={acceptedFormats}
+        record-id={myRecordId}
+        onuploadfinished={handleUploadFinished}
+        multiple
+    >
+    </lightning-file-upload>
+    </lightning-card>
+    <lightning-card  title="Salesforce Records">
+    <lightning-datatable
+                key-field="id"
+                data={accountList}
+                columns={columns}>
+    </lightning-datatable>
+    </lightning-card>
+</template>
