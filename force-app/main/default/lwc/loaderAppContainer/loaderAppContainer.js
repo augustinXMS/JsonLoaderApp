@@ -2,7 +2,7 @@ import { LightningElement, api, wire, track } from 'lwc';
 import jsonLoader from '@salesforce/apex/LoaderApp.jsonLoader';
 import getAccounts from '@salesforce/apex/LoaderApp.getAccounts';
 import { refreshApex } from "@salesforce/apex";
-
+import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
 export default class LoaderAppContainer extends LightningElement {
     _title = 'Success';
