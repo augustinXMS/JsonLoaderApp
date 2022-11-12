@@ -7,3 +7,4 @@ run ./setupProject.sh in terminal
 <p>3.Open LoaderAppPage</p>
 <p>4.Upload the file from Repo TestData.json</p>
 <p>5.On the ErrorLog tab records are created in case of errors</p>
+<img src="LoaderApp.gif">
